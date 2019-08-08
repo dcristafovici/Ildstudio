@@ -25,7 +25,7 @@ mixin main(data)
         //- main Item
         .main-item
           .main-item__photo
-            img(src="static/img/assets/main/i1.jpg", alt="")
+            img(src="static/img/assets/main/i1.jpg")
           .main-item__title Фирменный стиль
           .main-item__text
             p Тут нужно небольшое описание, чтобы все сразу понять и это будет выглядеть лучше с коротким текстом
@@ -33,7 +33,7 @@ mixin main(data)
         //- main Item
         .main-item
           .main-item__photo
-            img(src="static/img/assets/main/i2.jpg", alt="")
+            img(src="static/img/assets/main/i2.jpg")
           .main-item__title Инженерные проекты
           .main-item__text
             p Тут нужно небольшое описание, чтобы все сразу понять и это будет выглядеть лучше с коротким текстом
@@ -41,7 +41,65 @@ mixin main(data)
         //- main Item
         .main-item
           .main-item__photo
-            img(src="static/img/assets/main/i3.jpg", alt="")
+            img(src="static/img/assets/main/i3.jpg")
           .main-item__title Технология кухни
           .main-item__text
             p Тут нужно небольшое описание, чтобы все сразу понять и это будет выглядеть лучше с коротким текстом
+
+
+
+
+      //- Main Contacts
+      .main-contacts
+        .main-cnt__title Свяжитесь с нами
+        .main-cnt__paragraph
+          p Тут принять писать, по правилам хорошего тона, что вы доступны всегда и ответите на любые вопросы
+
+
+        .main-cnt__wrapper
+
+          .main-cnt__left
+            ul.main-cnt__gen
+              li
+                a(href="tel:+7 (495) 123–45-67" target='_blank')
+                  span +7 (495) 123–45-67
+
+              li
+                a(href="mailto:hello@ildstudio.ru" target='_blank')
+                  span hello@ildstudio.ru
+
+              li
+                a(href="http://www.ildstudio.ru" target='_blank')
+                  span www.ildstudio.ru
+            .main-cnt__env
+              .main-cnt__address
+                span Москва, Улица Шаболовка 35
+
+              ul.main-cnt__socials
+                li
+                  a(href="#")
+                    img(src="static/img/assets/main/s1.svg")
+                li
+                  a(href="#")
+                    img(src="static/img/assets/main/s2.svg")
+                li
+                  a(href="#")
+                    img(src="static/img/assets/main/s3.svg")
+
+          
+
+
+          .main-cnt__right
+
+
+            form.main-form
+
+              .form-group
+                input(type="email" placeholder="Ваш E-mail")
+              .form-group
+                input(type="text" placeholder="Ваше имя")
+              .form-group
+                textarea(placeholder="Ваше сообщения")
+              .form-group
+                button
+                  span Отправить

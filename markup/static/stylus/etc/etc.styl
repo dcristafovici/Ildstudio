@@ -1,0 +1,104 @@
+@media only screen and (max-width : 1200px)
+  body.body-promo .content
+    width 950px
+  body.body-promo 
+    .header-wrapper
+      width calc(100% - 60px)
+    .main-item
+      width 300px
+      &__photo
+        height 300px
+
+
+@media only screen and (max-width : 992px)
+  body.body-promo .content
+    width calc(100% - 60px )
+  
+  body.body-promo 
+    .ild-slide
+      height 350px
+
+    .main-items
+      flex-wrap: wrap
+    .main-item
+      width calc(50% - 15px)
+      margin-bottom 30px
+      &:last-child
+        margin-bottom 0
+      &__photo
+        height 360px
+
+    .main
+      &-cnt
+        &__wrapper
+          flex-wrap: wrap
+        &__left
+          width 100%
+          display flex
+          justify-content space-between
+          margin-bottom 50px
+        &__right
+          width 100%
+          display flex
+          justify-content center
+          align-items center
+
+
+
+@media only screen and (max-width : 768px)
+   body.body-promo 
+    .content,
+    .header-wrapper
+      width calc(100% - 50px )
+    .header
+      .logo
+        margin-right 30px
+        width 120px
+    .main
+      form.main-form
+        width 100%
+        .form-group
+          width 100%
+    .header
+      &-button
+        padding-left 10px
+        padding-right 10px
+      &-right
+        ul.socials
+          margin-right 20px
+
+    .main
+      &-item
+        &__photo
+          height 280px
+
+
+@media only screen and (max-width : 576px)
+   body.body-promo 
+    .content,
+    .header-wrapper
+      width calc(100% - 40px )
+    .swiper-container
+      height 500px
+    .swiper-container.nav-slider  
+      display none
+    .swiper-container
+      width 100%
+    .main
+      &-item
+        width 100%
+      &-items,
+      .ild-slider
+        padding-bottom 90px
+      
+      &-cnt
+        &__left
+          flex-direction: column
+     .main-text p
+       font-size 20px
+       line-height 28px
+      .main-text
+        margin-bottom 50px
+      .main
+        padding-top 75px
+        padding-bottom 75px

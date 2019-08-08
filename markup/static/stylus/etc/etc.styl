@@ -102,3 +102,32 @@
       .main
         padding-top 75px
         padding-bottom 75px
+    
+
+    .swiper-container 
+      .swiper-button-prev,  
+      .swiper-button-next
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+
+    .header-right
+      ul.socials
+        display none
+
+
+@media only screen and (max-width : 480px)
+  body.body-promo 
+    .content,
+    .header-wrapper
+      width calc(100% - 30px)
+    .header .logo
+      margin-right 0
+      font-size 14px
+      + a
+        font-size 14px
+    .header-button 
+      height 30px
+      span
+        text-transform none
+        

@@ -4,6 +4,7 @@ html(class="no-js", lang="ru")
   include ../components/head/head
   include ../components/header/header
   include ../components/home/home
+  include ../components/main/main
 
   head
     +head(head.defaults)
@@ -13,6 +14,11 @@ html(class="no-js", lang="ru")
     +header()
 
     +home()
+
+    +main()
+
+
+
 
     script(src='%=static=%js/separate-js/svg4everybody.min.js')
     script svg4everybody();
